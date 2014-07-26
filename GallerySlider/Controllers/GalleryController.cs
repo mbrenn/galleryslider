@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BurnSystems.GallerySlider.Entities;
+using BurnSystems.GallerySlider.Model;
+using GallerySlider.Providers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -10,17 +13,18 @@ namespace GallerySlider.Controllers
     public class GalleryController : ApiController
     {
         // GET: api/Gallery
-        public IEnumerable<string> Get()
+        public IEnumerable<GalleryModel> Get()
         {
-            return new string[] { "value1", "value2" };
+            return GalleryProvider.Repository.GetAll().Select(x => new GalleryModel(x));
         }
 
         // GET: api/Gallery/5
-        public string Get(int id)
+        public IEnumerable<ImageModel> Get(int id)
         {
-            return "value";
+            return GalleryProvider.Repository.GetAll().Where(x => x.Id == id).SelectMany(x=>x.Images).Select(x => new ImageModel(x));
         }
 
+        /*
         // POST: api/Gallery
         public void Post([FromBody]string value)
         {
@@ -34,6 +38,6 @@ namespace GallerySlider.Controllers
         // DELETE: api/Gallery/5
         public void Delete(int id)
         {
-        }
+        }*/
     }
 }

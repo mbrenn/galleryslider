@@ -27,7 +27,7 @@ namespace GallerySlider
                 "~/Scripts/app/app.datamodel.js",
                 "~/Scripts/app/app.viewmodel.js",
                 "~/Scripts/app/home.viewmodel.js",
-                "~/Scripts/app/burnsystems.gallery.js",
+                "~/Scripts/app/burnsystems.galleryslider.js",
                 "~/Scripts/app/_run.js"));
 
             // Verwenden Sie die Entwicklungsversion von Modernizr zum Entwickeln und Erweitern Ihrer Kenntnisse. Wenn Sie dann
@@ -45,7 +45,7 @@ namespace GallerySlider
 
             // Festlegen von EnableOptimizations auf false für Debugzwecke. Weitere Informationen
             // finden Sie unter http://go.microsoft.com/fwlink/?LinkId=301862
-            BundleTable.EnableOptimizations = true;
+            BundleTable.EnableOptimizations = false;
         }
     }
 }

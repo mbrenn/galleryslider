@@ -36,7 +36,7 @@ namespace GallerySlider
 
         // Weitere Informationen zum Konfigurieren der Authentifizierung finden Sie unter "http://go.microsoft.com/fwlink/?LinkId=301864".
         public void ConfigureAuth(IAppBuilder app)
-        {/*
+        {
             // Konfigurieren des db-Kontexts und des Benutzer-Managers für die Verwendung einer einzelnen Instanz pro Anforderung.
             app.CreatePerOwinContext(ApplicationDbContext.Create);
             app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
@@ -76,7 +76,7 @@ namespace GallerySlider
             //{
             //    ClientId = "",
             //    ClientSecret = ""
-            //});*/
+            //});
         }
     }
 }
