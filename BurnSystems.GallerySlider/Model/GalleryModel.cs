@@ -27,11 +27,18 @@ namespace BurnSystems.GallerySlider.Model
             set;
         }
 
+        public IEnumerable<Image> Images
+        {
+            get;
+            set;
+        }
+
         public GalleryModel(Gallery gallery)
         {
             this.Id = gallery.Id;
             this.Name = gallery.Name;
             this.Description = gallery.Description;
+            this.Images = gallery.Images;
         }
     }
 }

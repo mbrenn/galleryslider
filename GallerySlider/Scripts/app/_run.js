@@ -6,5 +6,5 @@
     ko.applyBindings(app);
 
     var gallery = new BurnSystems.GallerySlider.GUI();
-    gallery.showGallery();
+    gallery.showGalleries();
 });
