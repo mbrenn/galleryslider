@@ -170,8 +170,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="-40.406372"
-     inkscape:cy="83.739286"
+     inkscape:cx="-108.79923"
+     inkscape:cy="94.13807"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -206,17 +206,17 @@
      id="layer1"
      transform="translate(0,-952.36218)">
     <rect
-       style="fill:url(#linearGradient3763);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:url(#linearGradient3763);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98999999999999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985"
        width="99.009903"
        height="99.009903"
        x="0.49504948"
        y="952.85724"
-       inkscape:export-filename="D:\Projekte\galleryslider\assets\images\blau.png"
+       inkscape:export-filename="D:\Projekte\galleryslider\assets\images\blue.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
-       style="fill:url(#linearGradient3814);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:url(#linearGradient3814);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98999999999999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-9"
        width="99.009903"
        height="99.009903"
@@ -226,33 +226,34 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
-       style="fill:url(#linearGradient3848);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:url(#linearGradient3848);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98999999999999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-9-4"
        width="99.009903"
        height="99.009903"
        x="-106.6478"
        y="830.71436"
-       inkscape:export-filename="D:\Projekte\galleryslider\assets\images\rot.png"
+       inkscape:export-filename="D:\Projekte\galleryslider\assets\images\red.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
-       style="fill:url(#linearGradient3882);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:url(#linearGradient3882);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98999999999999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-9-4-1"
        width="99.009903"
        height="99.009903"
        x="25.137905"
        y="830.35718"
-       inkscape:export-filename="D:\Projekte\galleryslider\assets\images\gelb.png"
+       inkscape:export-filename="D:\Projekte\galleryslider\assets\images\yellow.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
-       style="fill:url(#linearGradient3916);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:url(#linearGradient3916);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.98999999999999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-9-4-1-6"
        width="99.009903"
        height="99.009903"
        x="-241.29066"
        y="830.71436"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\Projekte\galleryslider\assets\images\green.png" />
   </g>
 </svg>

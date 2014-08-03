@@ -28,9 +28,12 @@ namespace GallerySlider.Providers
                 });
             var galleryShapes = new Gallery(2, "Formen", "Wir zeigen Rechtecke, Kreise, Rauten und Vielecke",
                 new Image[]{
-                    new Image ("Kreis", "images/g/shapes/circle.png" ),
-                    new Image ("Rechteck", "images/g/shapes/rectangle.png" ),
-                    new Image ("Quadrat", "images/g/shapes/square.png" )
+                    new Image ("Kreis", "images/g/shapes/kreis.png" ),
+                    new Image ("Rechteck", "images/g/shapes/rechteck.png" ),
+                    new Image ("Quadrat", "images/g/shapes/quadrat.png" ),
+                    new Image ("Dreieck", "images/g/shapes/dreieck.png" ),
+                    new Image ("Raute", "images/g/shapes/raute.png" ),
+                    new Image ("Parallelogramm", "images/g/shapes/parallelogramm.png" )
                 });
 
             Repository.Add(galleryColor);
