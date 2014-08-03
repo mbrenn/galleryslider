@@ -41,8 +41,6 @@
                 this.imageDom = $("#galleryimage");
                 this.labelDom = $("#gallerylabel");
 
-                this.showImage(0);
-
                 $("#gallerynext").click(function (e) {
                     tthis.showNext();
                     return false;
@@ -52,6 +50,14 @@
                     tthis.showPrevious();
                     return false;
                 });
+
+                // Preload images
+                this.preloadedImages = new Array();
+                for (var n = 0; n < this.gallery.images.length; n++) {
+                    this.preloadedImages[this.preloadedImages.length] = $("<img></img>").attr("src", this.getSourceOfImage(n));
+                }
+
+                this.showImage(0);
             };
 
             Gallery.prototype.showImage = function (nr) {
@@ -62,9 +68,18 @@
                 }
 
                 this.labelDom.text(image.name);
+
+                /*
+                this.imageDom.attr("src", this.getSourceOfImage(nr));*/
+                this.imageDom.empty();
+                this.imageDom.append(this.preloadedImages[nr]);
+            };
+
+            Gallery.prototype.getSourceOfImage = function (nr) {
                 var w = Math.floor(window.innerWidth);
                 var h = Math.floor(window.innerHeight);
-                this.imageDom.attr("src", "/Gallery/Image/" + this.gallery.id + "?i=" + nr + "&w=" + w + "&h=" + h);
+
+                return "/Gallery/Image/" + this.gallery.id + "?i=" + nr + "&w=" + w + "&h=" + h;
             };
 
             Gallery.prototype.showNext = function () {

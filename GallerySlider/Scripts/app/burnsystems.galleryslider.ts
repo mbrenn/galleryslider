@@ -46,6 +46,8 @@
             labelDom: JQuery;
             currentImageNr: number;
 
+            preloadedImages: Array<JQuery>;
+
             constructor(gallery: GalleryModel) {
                 this.gallery = gallery;
             }
@@ -54,8 +56,6 @@
                 var tthis = this;
                 this.imageDom = $("#galleryimage");
                 this.labelDom = $("#gallerylabel");
-
-                this.showImage(0);
 
                 $("#gallerynext").click(function (e) {
                     tthis.showNext();
@@ -66,6 +66,15 @@
                     tthis.showPrevious();
                     return false;
                 });
+
+                // Preload images
+                this.preloadedImages = new Array();
+                for (var n = 0; n < this.gallery.images.length; n++) {
+                    this.preloadedImages[this.preloadedImages.length] =
+                        $("<img></img>").attr("src", this.getSourceOfImage(n));
+                }
+
+                this.showImage(0);
             }
 
             showImage(nr: number) {
@@ -76,9 +85,17 @@
                 }
 
                 this.labelDom.text(image.name);
+                /*
+                this.imageDom.attr("src", this.getSourceOfImage(nr));*/
+                this.imageDom.empty();
+                this.imageDom.append(this.preloadedImages[nr]);
+            }
+
+            getSourceOfImage(nr): string {
                 var w = Math.floor(window.innerWidth);
                 var h = Math.floor(window.innerHeight);
-                this.imageDom.attr("src", "/Gallery/Image/" + this.gallery.id + "?i=" + nr + "&w=" + w + "&h=" + h);
+
+                return "/Gallery/Image/" + this.gallery.id + "?i=" + nr + "&w=" + w + "&h=" + h;
             }
 
             showNext() {
