@@ -3,6 +3,12 @@
     padding-bottom: 20px;
 }
 
+/* Rever the setting for the fullscreen */
+body.fullscreen{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -14,5 +20,74 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.gallerygui{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.galleryimage{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.galleryheadline{
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-bottom: 1px solid black;
+}
+
+.gallerytitle a{
+    color: black;
+    text-decoration: none;
+}
+
+.gallerytitle a:hover{
+    color: black;
+}
+
+.gallerytitle a:focus{
+    color: black;
+    text-decoration: none;
+}
+
+
+.gallerybutton {
+    display:inline-block;
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px 5px 10px 5px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+
+.gallerynext {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.galleryprev {
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.gallerybutton:hover{
+    color: white;
+}
+
+.gallerybutton:focus{
+    color: white;
+    text-decoration: none;
 }
 

@@ -5,13 +5,16 @@
     Layout = "~/Views/Shared/_Fullscreen.cshtml";
 }
 
-<h2>Show</h2>
+<img id="galleryimage" class="galleryimage" />
+<div class="gallerygui">
+    <div class="galleryheadline">
+        <h1 class="gallerytitle"><a href="@Href("~/")">@Html.DisplayFor(m => m.name) - <span class="gallerylabel" id="gallerylabel"></span></a></h1>
+        
+    </div>
+    <a id="galleryprev" href="#" class="gallerybutton galleryprev">Previous</a>
+    <a id="gallerynext" href="#" class="gallerybutton gallerynext">Next</a>
+</div>
 
-<h1>@Html.DisplayFor(m => m.name)</h1>
-<img id="galleryimage" />
-<p id="gallerylabel"></p>
-<a id="galleryprev" href="#" class="gallerybutton">Previous</a>
-<a id="gallerynext" href="#" class="gallerybutton">Next</a>
 
 <script type="text/javascript">
         $(function()
