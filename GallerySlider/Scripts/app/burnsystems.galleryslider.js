@@ -7,12 +7,12 @@
             GUI.prototype.showGalleries = function () {
                 var tthis = this;
 
-                $.ajax("/api/Gallery").then(function (data) {
+                $.ajax("/Gallery/GetAll").then(function (data) {
                     for (var n in data) {
                         var item = data[n];
 
                         (function (i) {
-                            var dom = $("<li></li>").append($("<a></a>").text(i.name).attr("href", "/Home/Gallery/" + i.id));
+                            var dom = $("<li></li>").append($("<a></a>").text(i.name).attr("href", "/Gallery/Show/" + i.id));
 
                             /*dom.click(function (e) {
                             tthis.openGallery(item);

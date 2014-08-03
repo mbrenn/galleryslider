@@ -16,28 +16,3 @@ textarea {
     max-width: 280px;
 }
 
-/* Set padding to display errors that occur during databinding */
-.padding-error {
-    padding-top: 20px;
-}
-
-@media only screen and (max-width: 767px) {
-    .nofloat {
-        float: none;
-        padding: 10px 15px;
-    }
-}
-
-.gallerybutton {
-    display:inline-block;
-    background-color: #EEEEFF;
-    border: 2px solid black;
-    padding: 10px 5px 10px 5px;
-    width: 100px;
-    color: black;
-    text-align: center;
-}
-
-.gallerybutton:hover{
-    color: black;
-}

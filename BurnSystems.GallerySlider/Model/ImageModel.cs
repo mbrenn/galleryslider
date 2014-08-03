@@ -9,13 +9,13 @@ namespace BurnSystems.GallerySlider.Model
 {
     public class ImageModel
     {
-        public string Name
+        public string name
         {
             get;
             set;
         }
 
-        public string ImagePath
+        public string imagePath
         {
             get;
             set;
@@ -27,8 +27,8 @@ namespace BurnSystems.GallerySlider.Model
 
         public ImageModel(Image image)
         {
-            this.Name = image.Name;
-            this.ImagePath = image.ImagePath;
+            this.name = image.Name;
+            this.imagePath = image.ImagePath;
         }
     }
 }

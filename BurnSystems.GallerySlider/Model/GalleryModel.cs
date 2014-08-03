@@ -9,25 +9,25 @@ namespace BurnSystems.GallerySlider.Model
 {
     public class GalleryModel
     {
-        public int Id
+        public int id
         {
             get;
             set;
         }
 
-        public string Name
+        public string name
         {
             get;
             set;
         }
 
-        public string Description
+        public string description
         {
             get;
             set;
         }
 
-        public IEnumerable<Image> Images
+        public IEnumerable<ImageModel> images
         {
             get;
             set;
@@ -35,10 +35,10 @@ namespace BurnSystems.GallerySlider.Model
 
         public GalleryModel(Gallery gallery)
         {
-            this.Id = gallery.Id;
-            this.Name = gallery.Name;
-            this.Description = gallery.Description;
-            this.Images = gallery.Images;
+            this.id = gallery.Id;
+            this.name = gallery.Name;
+            this.description = gallery.Description;
+            this.images = gallery.Images.Select(x => new ImageModel(x));
         }
     }
 }
