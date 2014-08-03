@@ -76,7 +76,9 @@
                 }
 
                 this.labelDom.text(image.name);
-                this.imageDom.attr("src", image.imagePath);
+                var w = Math.floor(window.innerWidth);
+                var h = Math.floor(window.innerHeight);
+                this.imageDom.attr("src", "/Gallery/Image/" + this.gallery.id + "?i=" + nr + "&w=" + w + "&h=" + h);
             }
 
             showNext() {

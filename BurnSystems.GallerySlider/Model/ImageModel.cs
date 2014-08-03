@@ -15,12 +15,6 @@ namespace BurnSystems.GallerySlider.Model
             set;
         }
 
-        public string imagePath
-        {
-            get;
-            set;
-        }
-
         public ImageModel()
         {
         }
@@ -28,7 +22,6 @@ namespace BurnSystems.GallerySlider.Model
         public ImageModel(Image image)
         {
             this.name = image.Name;
-            this.imagePath = image.ImagePath;
         }
     }
 }
