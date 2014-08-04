@@ -14,7 +14,7 @@
    id="svg3780"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="Neues Dokument 2">
+   sodipodi:docname="shapes.svg">
   <defs
      id="defs3782" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-493.34401"
-     inkscape:cy="901.38588"
+     inkscape:zoom="0.7"
+     inkscape:cx="-193.73237"
+     inkscape:cy="673.26028"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,19 +51,148 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#efefef;fill-opacity:1;stroke:none"
-       id="rect3788"
-       width="299.99762"
-       height="300.68204"
-       x="-606.49408"
-       y="-43.791859" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect4298"
-       width="149.99881"
-       height="150.34102"
-       x="-532.55261"
-       y="29.366146" />
+    <g
+       id="g4427"
+       inkscape:export-filename="D:\Projekte\galleryslider\GallerySlider\images\g\shapes\quadrat.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <rect
+         y="-43.791859"
+         x="-606.49408"
+         height="300.68204"
+         width="299.99762"
+         id="rect3788"
+         style="fill:#efefef;fill-opacity:1;stroke:none" />
+      <rect
+         y="31.378651"
+         x="-531.49469"
+         height="150.34102"
+         width="149.99881"
+         id="rect4298"
+         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4431"
+       inkscape:export-filename="D:\Projekte\galleryslider\GallerySlider\images\g\shapes\rechteck.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <rect
+         y="-70.835976"
+         x="-174.99881"
+         height="300.68204"
+         width="299.99762"
+         id="rect3788-1"
+         style="fill:#efefef;fill-opacity:1;stroke:none" />
+      <rect
+         y="30.027637"
+         x="-149.4774"
+         height="98.954811"
+         width="248.9548"
+         id="rect4298-6"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.04519188;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4439"
+       inkscape:export-filename="D:\Projekte\galleryslider\GallerySlider\images\g\shapes\kreis.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <rect
+         y="410.59259"
+         x="-584.28455"
+         height="300.68204"
+         width="299.99762"
+         id="rect3788-8"
+         style="fill:#efefef;fill-opacity:1;stroke:none" />
+      <path
+         transform="matrix(0.89334788,0,0,0.92908179,-55.251001,21.198786)"
+         d="m -312.85713,580.93359 a 111.42857,107.14286 0 1 1 -222.85715,0 111.42857,107.14286 0 1 1 222.85715,0 z"
+         sodipodi:ry="107.14286"
+         sodipodi:rx="111.42857"
+         sodipodi:cy="580.93359"
+         sodipodi:cx="-424.28571"
+         id="path4342"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4435"
+       inkscape:export-filename="D:\Projekte\galleryslider\GallerySlider\images\g\shapes\dreieck.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <rect
+         y="383.44974"
+         x="-151.42737"
+         height="300.68204"
+         width="299.99762"
+         id="rect3788-8-1"
+         style="fill:#efefef;fill-opacity:1;stroke:none" />
+      <path
+         transform="translate(-49.999987,48.146525)"
+         inkscape:transform-center-y="-33.860835"
+         d="m -68.725948,587.22674 58.648689,-101.58251 58.648692,-101.58251 58.648687,101.58251 58.64869,101.58251 -117.297378,0 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="3.6651914"
+         sodipodi:arg1="2.6179939"
+         sodipodi:r2="67.721672"
+         sodipodi:r1="135.44334"
+         sodipodi:cy="519.50507"
+         sodipodi:cx="48.57143"
+         sodipodi:sides="3"
+         id="path4365"
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g4423"
+       inkscape:export-filename="D:\Projekte\galleryslider\GallerySlider\images\g\shapes\raute.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <rect
+         y="-37.97884"
+         x="-971.42737"
+         height="300.68204"
+         width="299.99762"
+         id="rect3788-8-8"
+         style="fill:#efefef;fill-opacity:1;stroke:none" />
+      <path
+         transform="matrix(1,0,0,1.2131548,174.28572,-91.540605)"
+         d="M -894.19522,168.07648 -995.71429,269.59555 -1097.2334,168.07648 -995.71429,66.557404 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="0.78539816"
+         sodipodi:arg1="0"
+         sodipodi:r2="71.784828"
+         sodipodi:r1="101.51907"
+         sodipodi:cy="168.07648"
+         sodipodi:cx="-995.71429"
+         sodipodi:sides="4"
+         id="path4392"
+         style="fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g4443"
+       inkscape:export-filename="D:\Projekte\galleryslider\GallerySlider\images\g\shapes\parallelogramm.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <rect
+         y="397.73544"
+         x="-1009.9988"
+         height="300.68204"
+         width="299.99762"
+         id="rect3788-6"
+         style="fill:#efefef;fill-opacity:1;stroke:none" />
+      <rect
+         transform="matrix(1,0,-0.62130227,0.78357099,0,0)"
+         y="603.52661"
+         x="-500.4234"
+         height="191.8665"
+         width="149.99881"
+         id="rect4298-4"
+         style="fill:#00a900;fill-opacity:1;stroke:#000000;stroke-width:1.12969398000000010;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
   </g>
 </svg>
