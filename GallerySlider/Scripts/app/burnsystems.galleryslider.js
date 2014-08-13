@@ -12,11 +12,8 @@
                         var item = data[n];
 
                         (function (i) {
-                            var dom = $("<li></li>").append($("<a></a>").text(i.name).attr("href", "/Gallery/Show/" + i.id));
+                            var dom = $("<li></li>").append($("<a></a>").append($("<span></span>").text(i.name)).attr("href", "/Gallery/Show/" + i.id).prepend($("<img></img>").attr("src", "/Gallery/Image/" + i.id + "?i=2&h=50&w=50")).prepend($("<img></img>").attr("src", "/Gallery/Image/" + i.id + "?i=1&h=50&w=50")));
 
-                            /*dom.click(function (e) {
-                            tthis.openGallery(item);
-                            });*/
                             $("#gs_galleries").append(dom);
                         })(item);
                     }

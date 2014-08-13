@@ -22,6 +22,50 @@ textarea {
     max-width: 280px;
 }
 
+.gallerylist {
+    padding: 0px;
+    margin: 0px;
+}
+
+.gallerylist li {
+    border-bottom: 1px solid #CCCCCC;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+    .gallerylist li:hover {
+        background-color: #F0F0FF;
+        border-right: 1px solid #CCCCCC;
+        border-left: 1px solid #CCCCCC;
+    }
+
+    .gallerylist li:first-child {
+    border-top: 1px solid #CCCCCC;
+    }
+
+.gallerylist img {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.gallerylist span {
+    margin-left: 20px;
+}
+
+.gallerylist a {
+    color: black;
+    font-size: 20px;
+}
+
+.gallerylist a:hover {
+    color: black;
+}
+
 .gallerygui{
     width: 100%;
     height: 100%;
