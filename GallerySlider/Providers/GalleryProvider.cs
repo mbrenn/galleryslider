@@ -33,6 +33,8 @@ namespace GallerySlider.Providers
                     new Image ("Quadrat", "images/g/shapes/quadrat.png" ),
                     new Image ("Dreieck", "images/g/shapes/dreieck.png" ),
                     new Image ("Raute", "images/g/shapes/raute.png" ),
+                    new Image ("Raute", "images/g/shapes/hexagon.png" ),
+                    new Image ("Raute", "images/g/shapes/octagon.png" ),
                     new Image ("Parallelogramm", "images/g/shapes/parallelogramm.png" )
                 });
 

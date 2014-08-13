@@ -106,7 +106,9 @@
     <Content Include="images\g\colors\red.png" />
     <Content Include="images\g\colors\yellow.png" />
     <Content Include="images\g\shapes\dreieck.png" />
+    <Content Include="images\g\shapes\hexagon.png" />
     <Content Include="images\g\shapes\kreis.png" />
+    <Content Include="images\g\shapes\octagon.png" />
     <Content Include="images\g\shapes\parallelogramm.png" />
     <Content Include="images\g\shapes\quadrat.png" />
     <Content Include="images\g\shapes\raute.png" />
