@@ -11,6 +11,12 @@ namespace BurnSystems.GallerySlider.Entities
         public string Name
         {
             get;
+            set                ;
+        }
+
+        public string Description
+        {
+            get;
             set;
         }
 
@@ -24,10 +30,11 @@ namespace BurnSystems.GallerySlider.Entities
         {
         }
 
-        public Image(string name, string imagePath)
+        public Image(string name, string imagePath, string description = "")
         {
             this.Name = name;
             this.ImagePath = imagePath;
+            this.Description = description;
         }
     }
 }

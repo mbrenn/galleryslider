@@ -20,7 +20,7 @@ namespace GallerySlider.Providers
             Repository = new Repository();
             var galleryColor = new Gallery(1, "Farben", "Ein paar Farben",
                 new Image[]{
-                    new Image ("Rot", "images/g/colors/red.png" ),
+                    new Image ("Rot", "images/g/colors/red.png" , "ROT SIND ALL MEINE FARBEN"),
                     new Image ("Blau", "images/g/colors/blue.png" ),
                     new Image ("Grün", "images/g/colors/green.png" ),
                     new Image ("Gelb", "images/g/colors/yellow.png" ),

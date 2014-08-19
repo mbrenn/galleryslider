@@ -15,6 +15,12 @@ namespace BurnSystems.GallerySlider.Model
             set;
         }
 
+        public string description
+        {
+            get;
+            set;
+        }
+
         public ImageModel()
         {
         }
@@ -22,6 +28,7 @@ namespace BurnSystems.GallerySlider.Model
         public ImageModel(Image image)
         {
             this.name = image.Name;
+            this.description = image.Description;
         }
     }
 }

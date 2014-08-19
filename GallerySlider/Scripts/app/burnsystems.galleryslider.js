@@ -37,6 +37,7 @@
                 var tthis = this;
                 this.imageDom = $("#galleryimage");
                 this.labelDom = $("#gallerylabel");
+                this.descriptionDom = $("#gallerydescription");
 
                 $("#gallerynext").click(function (e) {
                     tthis.showNext();
@@ -65,6 +66,7 @@
                 }
 
                 this.labelDom.text(image.name);
+                this.descriptionDom.text(image.description);
 
                 /*
                 this.imageDom.attr("src", this.getSourceOfImage(nr));*/

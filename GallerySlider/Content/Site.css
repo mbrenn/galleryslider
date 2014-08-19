@@ -85,7 +85,8 @@ textarea {
     margin-top: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-align: center;
+    padding-left: 20px;
+    text-align: left;
     background-color: rgba(255, 255, 255, 0.61);
     border-bottom: 1px solid black;
 }
@@ -104,6 +105,8 @@ textarea {
     text-decoration: none;
 }
 
+#gallerydescription{
+}
 
 .gallerybutton {
     display:inline-block;
