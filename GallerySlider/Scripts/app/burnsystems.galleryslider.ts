@@ -48,6 +48,7 @@
 
         export class Gallery {
             gallery: GalleryModel;
+            headlineDom: JQuery;
             imageDom: JQuery;
             labelDom: JQuery;
             descriptionDom: JQuery;
@@ -61,6 +62,7 @@
 
             start() {
                 var tthis = this;
+                this.headlineDom = $("#galleryheadline");
                 this.imageDom = $("#galleryimage");
                 this.labelDom = $("#gallerylabel");
                 this.descriptionDom = $("#gallerydescription");
@@ -104,6 +106,11 @@
                 this.imageDom.attr("src", this.getSourceOfImage(nr));*/
                 this.imageDom.empty();
                 this.imageDom.append(this.preloadedImages[nr]);
+                //this.headlineDom.stop(true, true);
+                this.headlineDom.clearQueue().finish();
+                this.headlineDom.show();
+                this.headlineDom.fadeOut(2000);
+                
             }
 
             getSourceOfImage(nr): string {

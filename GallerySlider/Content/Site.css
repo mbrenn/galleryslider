@@ -27,7 +27,8 @@ textarea {
 */
 .gallerylist {
     padding: 0px;
-    margin: 0px;
+    margin: 0px 0px 20px 0px;
+
 }
 
 .gallerylist li {
@@ -92,19 +93,18 @@ textarea {
     position: absolute;
     width: 100%;
     height: 70px;
-    bottom: 0px;
+    top: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 130px;
     padding-right: 130px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.61);
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    color: white;
+    text-shadow: 0px 0px 3px black;
 }
 
 h1.gallerytitle{
-    font-size: 20px;
+    font-size: 60px;
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 5px;
