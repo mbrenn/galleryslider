@@ -20,7 +20,7 @@ namespace GallerySlider.Providers
             Repository = new Repository();
             var galleryColor = new Gallery(1, "Farben", "Ein paar Farben",
                 new Image[]{
-                    new Image ("Rot", "images/g/colors/red.png" , "ROT SIND ALL MEINE FARBEN"),
+                    new Image ("Rot", "images/g/colors/red.png"),
                     new Image ("Blau", "images/g/colors/blue.png" ),
                     new Image ("Grün", "images/g/colors/green.png" ),
                     new Image ("Gelb", "images/g/colors/yellow.png" ),
@@ -33,8 +33,8 @@ namespace GallerySlider.Providers
                     new Image ("Quadrat", "images/g/shapes/quadrat.png" ),
                     new Image ("Dreieck", "images/g/shapes/dreieck.png" ),
                     new Image ("Raute", "images/g/shapes/raute.png" ),
-                    new Image ("Raute", "images/g/shapes/hexagon.png" ),
-                    new Image ("Raute", "images/g/shapes/octagon.png" ),
+                    new Image ("Sechseck", "images/g/shapes/hexagon.png", "Auch Hexagon" ),
+                    new Image ("Achteck", "images/g/shapes/octagon.png", "Auch Oktagon" ),
                     new Image ("Parallelogramm", "images/g/shapes/parallelogramm.png" )
                 });
 
