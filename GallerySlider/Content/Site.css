@@ -22,6 +22,9 @@ textarea {
     max-width: 280px;
 }
 
+/*
+     CSS for gallery detail image 
+*/
 .gallerylist {
     padding: 0px;
     margin: 0px;
@@ -66,11 +69,15 @@ textarea {
     color: black;
 }
 
+/* 
+    CSS for gallery detail image
+*/
 .gallerygui{
     width: 100%;
     height: 100%;
     position: absolute;
 }
+
 
 .galleryimage{
     position: absolute;
@@ -82,13 +89,25 @@ textarea {
 }
 
 .galleryheadline{
-    margin-top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 20px;
-    text-align: left;
+    padding-left: 130px;
+    padding-right: 130px;
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.61);
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+h1.gallerytitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .gallerytitle a{
@@ -116,6 +135,7 @@ textarea {
     width: 100px;
     color: white;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .gallerynext {
@@ -127,6 +147,11 @@ textarea {
 .galleryprev {
     position: absolute;
     bottom: 0px;
+}
+
+.galleryoverview {
+    position: absolute;
+    top: 0px;
 }
 
 

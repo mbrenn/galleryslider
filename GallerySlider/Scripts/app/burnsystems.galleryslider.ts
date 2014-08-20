@@ -65,6 +65,11 @@
                 this.labelDom = $("#gallerylabel");
                 this.descriptionDom = $("#gallerydescription");
 
+                $("#galleryoverview").click(function (e) {
+                    document.location.href = "/";
+                    return false;
+                });
+
                 $("#gallerynext").click(function (e) {
                     tthis.showNext();
                     return false;
