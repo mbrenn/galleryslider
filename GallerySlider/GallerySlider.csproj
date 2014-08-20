@@ -105,6 +105,13 @@
     <Content Include="images\g\colors\orange.png" />
     <Content Include="images\g\colors\red.png" />
     <Content Include="images\g\colors\yellow.png" />
+    <Content Include="images\g\pets\cat.jpg" />
+    <Content Include="images\g\pets\cow.jpg" />
+    <Content Include="images\g\pets\dog.jpg" />
+    <Content Include="images\g\pets\donkey.jpg" />
+    <Content Include="images\g\pets\goat.jpg" />
+    <Content Include="images\g\pets\pig.jpg" />
+    <Content Include="images\g\pets\sheep.jpg" />
     <Content Include="images\g\shapes\dreieck.png" />
     <Content Include="images\g\shapes\hexagon.png" />
     <Content Include="images\g\shapes\kreis.png" />
